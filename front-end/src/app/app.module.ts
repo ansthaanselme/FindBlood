@@ -84,8 +84,8 @@ import { AddadminComponent } from './modalform/addadmin/addadmin.component';
       "bgsPosition": "center-center",
       "bgsSize": 60,
       "logoPosition": "center-center",
-      "logoSize": 150,
-      "logoUrl": "/assets/logo.png",
+      "logoSize": 300,
+      "logoUrl": "/assets/logo_alx.png",
       "fastFadeOut": true,
       "overlayColor": "rgb(63,57,57)"
     }),

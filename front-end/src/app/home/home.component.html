@@ -132,54 +132,11 @@
     </accordion-group>
   </accordion>
 
-  <h4 class="my-2 font-weight-bold font-italic">Camps of last week</h4>
-  <div id="camps">
-    <div class="row">
-      <div class="col-lg-3 col-md-6 col-sm-6" *ngFor="let c of campsdata">
-        <div class="card text-danger font-weight-bold {{c.border}}" >
-          <img class="card-img-top" src="{{c.img}}" alt="image">
-          <div class="card-body">
-            <h5 class="card-title font-weight-bold ml-1 mb-1 text-uppercase font-italic">{{c.city}}</h5>
-            <p class="card-text mb-0">Participants: {{c.participants}}</p>
-            <p class="card-text mb-0">Collected: {{c.collected}} Units</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+ 
 
-  <h4 class="my-2 font-weight-bold font-italic">Top participants</h4>
-  <div id="top">
-    <div class="row justify-content-center">
-      <div class="col-lg-3 col-md-4 col-sm-6" *ngFor="let t of topparticipants">
-        <div class="card m-1">
-          <div class="card-body {{t.bg}} text-white-50">
-            <h5 class="card-title text-white">{{t.name}}</h5>
-            <h6 class="card-subtitle mb-3 text-white" style="font-size: 1.1rem;">{{t.profession}}</h6>
-            <h6 class="card-subtitle mb-2 ">Points: {{t.points}}</h6>
-            <h6 class="card-subtitle mb-2 "><fa-icon [icon]="location" class="iconssize mr-1"></fa-icon>
-              {{t.location}}</h6>
-            <h6 class="card-subtitle mb-2 ">Age: {{t.age}}</h6>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <h4 class="my-2 font-weight-bold font-italic">What people say</h4>
+
+
 </div>
 
-<div class="container-fluid px-4" id="people">
-  <carousel showIndicators itemsPerSlide="2" interval="3000" isAnimated pauseOnFocus="true" >
-    <slide *ngFor="let d of people">
-      <div class="card">
-        <div class="card-body ml-2">
-          <blockquote class="blockquote mb-0">
-            <p class="mb-0">{{d.comment}}</p>
-            <footer class="blockquote-footer text-right font-weight-bold"><cite title="Source Title">{{d.name}} ({{d.location}})</cite></footer>
-          </blockquote>
-        </div>
-      </div>
-    </slide>
-  </carousel>
-</div>
+
 

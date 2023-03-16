@@ -199,7 +199,7 @@ export class HomeComponent implements OnInit {
     {
       name : 'Zayn Malik',
       location: 'Ranchi',
-      comment: 'One good thing about donation with OneDrop is that, once you do it, you get addicted to it because it brings great joy and happiness to you.'
+      comment: 'One good thing about donation with FindBlood is that, once you do it, you get addicted to it because it brings great joy and happiness to you.'
     },
     {
       name : 'Nikitha Shetty',
@@ -209,7 +209,7 @@ export class HomeComponent implements OnInit {
     {
       name : 'Monith Gupta',
       location: 'Delhi',
-      comment: 'The change is dramatic and immediate. Healthy blood brings Trey out of sickle cell agony to an active life free of pain.OneDrop helped us.'
+      comment: 'The change is dramatic and immediate. Healthy blood brings Trey out of sickle cell agony to an active life free of pain.FindBlood helped us.'
     }
   ];
   bloodgroup = [

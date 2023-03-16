@@ -48,7 +48,7 @@ export class CampsComponent implements OnInit {
       points: 8,
       head: 'Fundraiser and Promotion',
       icon: faSearchDollar,
-      info: 'This role is best suited for Business students and professionals. You will be working directly with OneDrop team at the camp site for fund raising and promotion.',
+      info: 'This role is best suited for Business students and professionals. You will be working directly with FindBlood team at the camp site for fund raising and promotion.',
       require: 'You need to have at least 5 points to apply for this role.',
       isopen: false
     },
