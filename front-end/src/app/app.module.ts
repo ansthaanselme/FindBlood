@@ -83,9 +83,6 @@ import { AddadminComponent } from './modalform/addadmin/addadmin.component';
       "bgsType": "ball-spin-clockwise-fade-rotating",
       "bgsPosition": "center-center",
       "bgsSize": 60,
-      "logoPosition": "center-center",
-      "logoSize": 300,
-      "logoUrl": "/assets/logo_alx.png",
       "fastFadeOut": true,
       "overlayColor": "rgb(63,57,57)"
     }),
