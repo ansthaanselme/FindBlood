@@ -14,7 +14,7 @@
 	<name>back-end</name>
 	<description>back-end for onedrop web application</description>
 	<properties>
-		<java.version>11</java.version>
+		<java.version>8</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
